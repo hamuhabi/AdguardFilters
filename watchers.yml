@@ -4,7 +4,7 @@ sites:
     force_search_ahead: true
     last_known_mirror: gmatv61.live
     failed_since: 2026-09-03 19:11
-    failed_days: 42
+    failed_days: 44
     potentially_dead: true
   Flixer(flixer.*):
     last_known_mirror: flixer.gd
@@ -28,11 +28,11 @@ sites:
     last_known_mirror: turkifsaclub130.sbs
     success_since: 2026-07-04 19:31
   Jmanga (jmanga.*):
-    last_known_mirror: ww1.jmanga.media
-    success_since: 2026-10-12 19:11
+    last_known_mirror: jmanga.buzz
+    success_since: 2026-10-17 11:30
   iNat TV (inattv*.xyz):
-    last_known_mirror: inattv1325.xyz
-    success_since: 2026-10-09 01:35
+    last_known_mirror: inattv1326.xyz
+    success_since: 2026-10-17 11:30
   HDFilmCehennemi (hdfilmcehennemi*.org):
     initial_domain: t.co/3D4ep5ZtK4
     last_known_mirror: hdfilmcehennemi27.org
@@ -41,7 +41,7 @@ sites:
     last_known_mirror: patronmac101.cfd
     accept_antibot: true
     failed_since: 2026-10-14 13:13
-    failed_days: 1
+    failed_days: 3
     potentially_dead: true
   voe.sx:
     initial_domain: https://voe.sx/e/q9ed7q8sqh2d
@@ -109,19 +109,19 @@ sites:
     accept_antibot: true
     success_since: 2026-09-17 13:13
   Cimcime (cimcime*.live):
-    last_known_mirror: cimcime169.live
+    last_known_mirror: cimcime170.live
     accept_antibot: true
-    success_since: 2026-10-14 01:23
+    success_since: 2026-10-17 11:30
   PatronGol / Patronspor (patrongol*.cfd):
-    last_known_mirror: patrongol39.cfd
+    last_known_mirror: patrongol40.cfd
     accept_antibot: true
     force_search_ahead: true
-    success_since: 2026-10-14 01:23
+    success_since: 2026-10-17 11:30
   PatronLive / Patronspor (patronlive*.cfd):
-    last_known_mirror: patronlive56.cfd
+    last_known_mirror: patronlive57.cfd
     accept_antibot: true
     force_search_ahead: true
-    success_since: 2026-10-14 01:23
+    success_since: 2026-10-17 11:30
   Inattvizle:
     initial_domain: inatgiris.com
     last_known_mirror: www.inattvizle492.top
@@ -169,8 +169,8 @@ sites:
     force_search_ahead: true
     success_since: 2026-09-01 13:14
   Dahahizli (dahahizli*.live):
-    last_known_mirror: dahahizli158.live
-    success_since: 2026-10-14 01:23
+    last_known_mirror: dahahizli159.live
+    success_since: 2026-10-17 11:30
   7tv (7tv*.com):
     last_known_mirror: 7tv066.com
     success_since: 2026-07-28 13:36
@@ -188,14 +188,18 @@ sites:
       - livosports30.live
     pattern_changed: true
     non_pattern_mirror: www.google.com
-    success_since: 2026-10-14 01:23
+    failed_since: 2026-10-17 11:30
+    failed_days: 0
+    potentially_dead: true
   87betine (87betine*.live):
     last_known_mirror: 87betine.live
     heuristic_history:
       - 87betine.live
     pattern_changed: true
     non_pattern_mirror: www.google.com
-    success_since: 2026-08-14 01:36
+    failed_since: 2026-10-17 11:30
+    failed_days: 0
+    potentially_dead: true
   Bayconti TV (baycontitv*.com):
     last_known_mirror: baycontitv15.com
     success_since: 2026-09-21 01:29
@@ -203,7 +207,7 @@ sites:
     # Fake Taraftarium24
     last_known_mirror: taraftarium24canlimacyayini.online
     failed_since: 2026-10-08 19:12
-    failed_days: 7
+    failed_days: 9
     potentially_dead: true
   Patron Futbol (patronfutbol*.cfd):
     last_known_mirror: patronfutbol62.cfd
@@ -233,7 +237,7 @@ sites:
   Kralsports HD (kralsportshd*.xyz):
     last_known_mirror: kralsportshd8.xyz
     failed_since: 2026-10-11 13:13
-    failed_days: 4
+    failed_days: 6
     potentially_dead: true
   KickAssAnime (kaa.*):
     # initial_domain: kaa.to
@@ -247,7 +251,7 @@ sites:
     pattern_changed: true
     non_pattern_mirror: www.google.com
     failed_since: 2026-10-15 07:18
-    failed_days: 0
+    failed_days: 3
     potentially_dead: true
   Xsportv (xsportv-*.xyz):
     last_known_mirror: www.xsportv-de596bbe2f.xyz
@@ -262,8 +266,8 @@ sites:
     last_known_mirror: justintvizle736.top
     success_since: 2026-10-09 01:35
   Turkifsalife (turkifsalife*.blog):
-    last_known_mirror: turkifsalife67.lat
-    success_since: 2026-10-14 01:23
+    last_known_mirror: turkifsalife68.lat
+    success_since: 2026-10-17 11:30
   Rtally link (rtally.link):
     initial_domain: rtally.xyz
     last_known_mirror: www.rtally.xyz
@@ -298,7 +302,7 @@ sites:
   Pelitcanlitv (pelitcanlitv*.com):
     last_known_mirror: pelitcanlitv.com
     failed_since: 2026-10-11 19:11
-    failed_days: 4
+    failed_days: 6
     potentially_dead: true
   MMA Box (mmabox.*):
     last_known_mirror: mmabox.me
@@ -311,7 +315,9 @@ sites:
     success_since: 2026-10-14 01:23
   F1Box Streams (f1box.*):
     last_known_mirror: f1live.me
-    success_since: 2026-10-07 07:22
+    failed_since: 2026-10-17 11:30
+    failed_days: 0
+    potentially_dead: true
   NFLBox Streams (nflbox.*):
     last_known_mirror: nflbox.sx
     success_since: 2026-10-07 07:22
@@ -324,7 +330,9 @@ sites:
     success_since: 2026-10-14 01:23
   Boxing Streams (boxingbox.*):
     last_known_mirror: boxingbox.me
-    success_since: 2026-10-14 01:23
+    failed_since: 2026-10-17 11:30
+    failed_days: 0
+    potentially_dead: true
   WorldSports (worldsports.*):
     last_known_mirror: worldsports.si
     success_since: 2026-10-11 19:11
@@ -336,14 +344,18 @@ sites:
   MovieBox (officialmoviebox.*):
     # initial_domain: themoviebox.org
     last_known_mirror: officialmoviebox.com
-    success_since: 2026-09-01 13:14
+    failed_since: 2026-10-17 11:30
+    failed_days: 0
+    potentially_dead: true
   gunlukmola.com:
     initial_domain: gunlukmola.com
-    last_known_mirror: zevkdolu32.com
-    success_since: 2026-09-25 13:13
+    last_known_mirror: zevkdolu41.com
+    success_since: 2026-10-17 11:30
   Bahiso TV (bahisotv*.com):
     last_known_mirror: bahisotv36.com
-    success_since: 2026-09-08 13:14
+    failed_since: 2026-10-17 11:30
+    failed_days: 0
+    potentially_dead: true
   Tennis Online (tennisonline.*):
     # initial_domain: http://tennisstream.me
     last_known_mirror: tennisonline.im
@@ -361,8 +373,8 @@ sites:
     last_known_mirror: restizle858.com
     success_since: 2026-09-24 13:13
   BovTV (bovtv*.com):
-    last_known_mirror: bovtv44.com
-    success_since: 2026-10-14 01:23
+    last_known_mirror: bovtv45.com
+    success_since: 2026-10-17 11:30
   Betano TV (betanotv*.site):
     last_known_mirror: betanotv6.site
     success_since: 2026-10-13 07:27
@@ -372,7 +384,9 @@ sites:
       - ibizatv1.com
     pattern_changed: true
     non_pattern_mirror: www.google.com
-    success_since: 2026-09-14 13:14
+    failed_since: 2026-10-17 11:30
+    failed_days: 0
+    potentially_dead: true
   Sampiyon TV (sampiyontv*.xyz):
     accept_antibot: true
     force_search_ahead: true
@@ -410,7 +424,7 @@ sites:
     # initial_domain: worldfree4u.gd
     last_known_mirror: worldfree4u.expert
     failed_since: 2026-10-05 19:14
-    failed_days: 10
+    failed_days: 12
     potentially_dead: true
   Canlı Maç izle (canlimacizlemax*.top):
     accept_antibot: true
@@ -432,11 +446,11 @@ sites:
     last_known_mirror: pornocudayi56.com
     success_since: 2026-10-12 19:11
   Turkifsa (turkifsa*.best):
-    last_known_mirror: turkifsa16.best
-    success_since: 2026-10-12 19:11
+    last_known_mirror: turkifsa17.best
+    success_since: 2026-10-17 11:30
   Hadi TV (hadibettv*.com):
-    last_known_mirror: hadibettv7.com
-    success_since: 2026-10-07 01:34
+    last_known_mirror: hadibettv8.com
+    success_since: 2026-10-17 11:30
   PatronLig / Patronspor (patronlig*.cfd):
     last_known_mirror: patronlig20.cfd
     success_since: 2026-10-07 01:34
